@@ -18,10 +18,6 @@ jobs:
           node-version: 18
       - name: Install Dependencies
         run: npm install 
-      - name: install prisma
-        run: npm install prisma
-      - name: install @prisma/client
-        run: npm install @prisma/client
       - name: Generate prisma client
         run: npm run db:generate
       - name: Run Build
