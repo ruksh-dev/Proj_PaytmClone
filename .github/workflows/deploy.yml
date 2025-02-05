@@ -39,4 +39,4 @@ jobs:
             sudo docker pull rukshdev/project_paytm_app1:latest
             sudo docker stop web-app || true
             sudo docker rm web-app || true
-            sudoe docker run -d --name web-app -p 3005:3000 rukshdev/project_paytm_app1:latest 
+            sudo docker run -d --name web-app -p 3005:3000 rukshdev/project_paytm_app1:latest 
